@@ -2,11 +2,9 @@ class Solution {
 public:
     vector<string> stringMatching(vector<string>& words) {
         vector< string > temp;
-        vector< string > temp2;
-        int i,j=0;
-        for( i = 0; i<words.size(); i++ )
+        for( int i = 0; i<words.size(); i++ )
         {
-            for( j = 0; j<words.size(); j++ )
+            for( int j = 0; j<words.size(); j++ )
             {
                 if(i==j)
                     continue;
@@ -24,3 +22,5 @@ public:
         
     }
 };
+// Runtime: 8 ms, faster than 59.13% of C++ online submissions for String Matching in an Array.
+// Memory Usage: 8.3 MB, less than 87.66% of C++ online submissions for String Matching in an Array.
