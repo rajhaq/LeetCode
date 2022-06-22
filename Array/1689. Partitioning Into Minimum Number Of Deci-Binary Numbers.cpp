@@ -14,3 +14,5 @@ public:
         return highest;
     }
 };
+// Runtime: 460 ms, faster than 5.18% of C++ online submissions for Partitioning Into Minimum Number Of Deci-Binary Numbers.
+// Memory Usage: 13.6 MB, less than 64.92% of C++ online submissions for Partitioning Into Minimum Number Of Deci-Binary Numbers.
