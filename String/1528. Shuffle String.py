@@ -5,6 +5,7 @@ class Solution(object):
         :type indices: List[int]
         :rtype: str
         """
+        
         new_s=list(s)
         for i in range(len(indices)):
             new_s[indices[i]]=s[i]
